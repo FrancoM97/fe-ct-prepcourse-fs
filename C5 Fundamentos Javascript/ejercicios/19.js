@@ -5,6 +5,8 @@ function suma(x, y) {
   // 5, 5 ---> 10
   // -5, 5 ---> 0
   // Tu código:
+
+  return x + y
 }
 
 module.exports = suma; 
