@@ -4,6 +4,11 @@ function obtenerSaludo(nombre) {
   // Ejemplo: "Martin" ---> "Hola Martin!"
   // Retorna el nuevo string. 
   // Tu código:
+  var newString= nombre.charAt(0).toUpperCase() + nombre.slice(1);
+  // el nombre se pasa a mayusucula 
+  return "Hola "+ newString + "!"
 }
+
+console.log(obtenerSaludo("martin"))
 
 module.exports = obtenerSaludo;

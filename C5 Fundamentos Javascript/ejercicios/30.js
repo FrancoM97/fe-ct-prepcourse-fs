@@ -7,6 +7,12 @@ function deEuroAdolar(euro) {
   // 1 ---> 1.20
   // 0 ---> 0
   // Tu código:
+  return euro*1.2
 }
+
+console.log(deEuroAdolar(1));
+console.log(deEuroAdolar(0));
+
+
 
 module.exports = deEuroAdolar;
